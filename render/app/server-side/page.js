@@ -1,6 +1,7 @@
 export default async function Page(){
     const res = await fetch("https://jsonplaceholder.typicode.com/posts", {
-        cache:'no-store'
+        cache:'no-store',
+        next : {revalidate:60}
     })
 
     const data = await res.json();
