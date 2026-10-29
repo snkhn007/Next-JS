@@ -1,0 +1,49 @@
+
+# Dependencies in any project
+**/node_modules/
+*/node_modules/
+
+# Next.js generated files
+**/.next/
+**/out/
+
+# Build output
+**/build/
+**/dist/
+
+# Environment files and secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Deployment
+**/.vercel/
+
+# Caches and test output
+**/.cache/
+**/.turbo/
+**/coverage/
+
+# Logs
+**/npm-debug.log*
+**/yarn-debug.log*
+**/pnpm-debug.log*
+**/*.log
+
+# TypeScript generated files
+**/*.tsbuildinfo
+
+# Operating system files
+**/.DS_Store
+**/Thumbs.db
+**/desktop.ini
+
+# Editor settings
+**/.vscode/
+**/.idea/
+
+# Prisma generated client (common custom output locations)
+**/generated/prisma/
+
+# Temporary folder listing
+/folder-structure.txt
